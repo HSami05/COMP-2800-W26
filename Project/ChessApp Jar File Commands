@@ -1,0 +1,7 @@
+ChessApp.jar Command Instructions
+
+1. Right‑click the Project folder
+2. Select “Open in Integrated Terminal”
+3. Run javac *.java command to get .class files for everything
+4. Create a text file named manifest.txt, and write 'Main-Class: ChessApp' followed by a newline
+5. Run '& "C:\Program Files\Java\jdk-25\bin\jar.exe" cfm ChessApp.jar manifest.txt *.class' to create the jar file
